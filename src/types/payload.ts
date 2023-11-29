@@ -1,5 +1,5 @@
 type TPayload = {
-  idempotencyId: "string";
+  idempotencyId: string;
   amount: number;
   type: "credit" | "debit";
 };
