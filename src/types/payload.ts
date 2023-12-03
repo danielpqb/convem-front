@@ -6,4 +6,8 @@ type TPayload = {
 
 type TPayloadCreateRequest = Omit<TPayload, "idempotencyId">;
 
-type TPayloadSearchResponse = TPayload[];
+type TPayloadSearchResponse = {
+  success: boolean;
+  message: string;
+  data: { Count: number; Items: TPayload[] };
+};

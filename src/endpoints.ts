@@ -1,8 +1,8 @@
 export const API = {
-  BASE_URL: "https://.us-east-1.amazonaws.com/dev/",
+  BASE_URL: "http://localhost:4000/",
   STORAGE_URL: "",
   PAYLOADS: {
-    SEARCH: "payloads/search",
+    SEARCH: "payloads",
     CREATE: "payloads",
   },
 };
