@@ -10,4 +10,5 @@ type TPayloadSearchResponse = {
   success: boolean;
   message: string;
   data: { Count: number; Items: TPayload[] };
+  nextCursor?: string
 };

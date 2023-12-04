@@ -4,5 +4,6 @@ export const API = {
   PAYLOADS: {
     SEARCH: "payloads",
     CREATE: "payloads",
+    CLEAR: "payloads",
   },
 };
